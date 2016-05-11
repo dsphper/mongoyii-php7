@@ -16,7 +16,7 @@ There is a new test application for this extension which is a rewrite of the old
 
 Running the inbuilt tests are the same as before.
 
-## Issues/Bugs & Questions
+## Issues/Bugs & Questionscolllection
 
 Please use the new Github issue tracker for all your questions and bug reports. If you post in the forums please link it in the Github issue tracker.
 
@@ -268,7 +268,7 @@ I decided, in the end, to make my querying more like Yii2. This actually means y
 
 ```php
 $docs = new Query([
-	'from' => 'colllection',
+	'from' => 'collection',
 	'condition' => ['what' => 'ever'],
 	'limit' => 1
 ])->all()
